@@ -28,6 +28,18 @@ an `Immediately-Invoked Function Expression (IIFE)` a function that gets called 
 (function (){
   console.log('hello! world');
 }());
+
+`Arrow function` is introduced in ES6 which binds the current context in side the function and adds syntaxical sugar.
+
+```` javascript
+var a = () => {
+  console.log('hello! world');
+}
+
+a() // prints 'hello! world'
+````
+
+
 ````
 ### Async Await
 * Async Await is syntaxical sugar to the existing Javascript Promises.
