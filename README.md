@@ -1,5 +1,3 @@
-# Programmer notes
-
 ## Index
 * Javascript
 * CSS
