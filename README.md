@@ -29,7 +29,8 @@ an `Immediately-Invoked Function Expression (IIFE)` a function that gets called 
   console.log('hello! world');
 }());
 
-`Arrow function` is introduced in ES6 which binds the current context in side the function and adds syntaxical sugar.
+````
+Arrow function` is introduced in ES6 which binds the current context in side the function and adds syntaxical sugar.
 
 ```` javascript
 var a = () => {
@@ -39,8 +40,6 @@ var a = () => {
 a() // prints 'hello! world'
 ````
 
-
-````
 ### Async Await
 * Async Await is syntaxical sugar to the existing Javascript Promises.
 * Async function returns a promise regardless of return value. You dont need to wrap the return value in Promise. its by default.
