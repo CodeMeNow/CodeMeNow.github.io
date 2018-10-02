@@ -4,23 +4,26 @@
 * HTML
 
 ## Javascript
-### Anonymous Function vs named function vs Immediately-Invoked Function Expression
-an `anonymous function` is an unnamed function that is assigned to a variable.
+### Function declaration types in Javscript
+an `anonymous function` or `Function expression`is an unnamed function that is assigned to a variable.
 ```` javascript
 var test = function() {
   console.log('hello! world');
 }
 ````
-a `named function` will have its name in its declaration.
+_anonymous functions will not be `hoisted` (link??)_.
+
+a `named function` or `Function declaration` will have its name in its declaration.
 
 ```` javascript
 function test() {
   console.log('hello! world');
 }
-
 ````
+_named functions will be `hoisted` (link??)_.
 
-an `Immediately-Invoked Function Expression (IIFE)` is an anonymous function that calls gets called immedialty after the declaration.
+
+an `Immediately-Invoked Function Expression (IIFE)` a function that gets called immedialty after the declaration.
 ```` javascript
 (function (){
   console.log('hello! world');
