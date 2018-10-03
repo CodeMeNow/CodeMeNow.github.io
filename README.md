@@ -1,8 +1,21 @@
 ## Index
 ### Javascript
-1. [Function declaration types in Javscript](https://iamsbr.github.io/#function-declaration-types-in-javscript)
-2. [Async Await](https://iamsbr.github.io/#async-await)
+1. Hoisting in Javascript
+2. [Function declaration types in Javscript](https://iamsbr.github.io/#function-declaration-types-in-javscript)
+3. [Async Await](https://iamsbr.github.io/#async-await)
 
+
+#### Hoisting
+In Javascript variables and function declarations are moved to the top of their scope before code execution.
+This allows us to call the function even before they are declared in the code.
+
+```` javascript
+printMessage("Github"); // outputs "Hello Github"
+
+function printMessage(msg) {
+  console.log("Hello " + msg);
+}
+````
 #### Function declaration types in Javscript
 an `anonymous function` or `Function expression`is an unnamed function that is assigned to a variable.
 ```` javascript
