@@ -1,6 +1,6 @@
 ## Index
 ### Javascript
-1. [Hoisting in Javascript](https://iamsbr.github.io/#hoisting)
+1. [Hoisting in Javascript](/#hoisting)
 2. [Function declaration types in Javscript](https://iamsbr.github.io/#function-declaration-types-in-javscript)
 3. [Async Await](https://iamsbr.github.io/#async-await)
 
