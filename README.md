@@ -1,9 +1,8 @@
 ## Index
-* Javascript
-* CSS
-* HTML
-
 ## Javascript
+1. [Function declaration types in Javscript](https://iamsbr.github.io/#function-declaration-types-in-javscript)
+2. [Async Await](https://iamsbr.github.io/#async-await)
+
 ### Function declaration types in Javscript
 an `anonymous function` or `Function expression`is an unnamed function that is assigned to a variable.
 ```` javascript
