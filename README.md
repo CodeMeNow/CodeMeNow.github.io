@@ -1,9 +1,9 @@
 ## Index
-## Javascript
+### Javascript
 1. [Function declaration types in Javscript](https://iamsbr.github.io/#function-declaration-types-in-javscript)
 2. [Async Await](https://iamsbr.github.io/#async-await)
 
-### Function declaration types in Javscript
+#### Function declaration types in Javscript
 an `anonymous function` or `Function expression`is an unnamed function that is assigned to a variable.
 ```` javascript
 var test = function() {
@@ -39,6 +39,6 @@ var a = () => {
 a() // prints 'hello! world'
 ````
 
-### Async Await
+#### Async Await
 * Async Await is syntaxical sugar to the existing Javascript Promises.
 * Async function returns a promise regardless of return value. You dont need to wrap the return value in Promise. its by default.
