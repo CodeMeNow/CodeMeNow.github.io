@@ -4,11 +4,11 @@
 1. [Hoisting in Javascript](#hoisting)
 2. [`var` vs `let`](#var-vs-let)
 3. [Strict mode in Javascript](#strict-mode-in-Javascript)
-3. [Function declaration types in Javscript](#Function-declaration-types-in-Javscript)
-4. [Async await](#Async-await)
+3. [Function declaration types in Javscript](#function-declaration-types-in-javascript)
+4. [Async await](#async-await)
 5. [Events and Delegation](#events-and-delegation)
 6. [Take the quiz](#javascript-quiz)
-7. [References and resources](#References-and-resources)
+7. [References and resources](#references-and-resources)
 
 ### Hoisting
 
@@ -147,6 +147,7 @@ Async Await is syntactical sugar to the existing Javascript Promises.
 * You don’t need to wrap the return value in Promise. its by default.
 
 ### Events and Delegation
+//todo
 
 ### Javascript quiz
 1. What will be the console output of the following code and why is it ?
@@ -163,7 +164,7 @@ Async Await is syntactical sugar to the existing Javascript Promises.
     console.log(beerPrice); //output ?
     console.log(whiskeyPrice); //output ?
     ````
-2.
+
 ### References and resources
 The following references are used in the code snippets, examples, definitions.
 1. [Eloquent-JavaScript.pdf](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
