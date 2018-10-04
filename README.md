@@ -79,6 +79,8 @@ a method or constructor incorrectly in strict mode JavaScript will produce an er
 writing to the global scope. For example, consider the following code, which calls a constructor function
 without the new keyword so that its this will not refer to a newly constructed
 object:
+
+
 ````javascript
 function Person(name) { 
   this.name = name;
@@ -87,8 +89,11 @@ let ferdinand = Person("Ferdinand"); // oops
 
 console.log(name); // → Ferdinand
 ````
+
 > So the bogus call to Person succeeded but returned an undefined value and
 created the global binding name. In strict mode, the result is different.
+
+
 ````javascript
 "use strict"
 function Person(name) { this.name = name; }
