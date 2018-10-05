@@ -13,7 +13,7 @@
 
 
 <details>
-<summary>###Hoisting</summary>
+<summary>Hoisting</summary>
 
 > Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.  
 
@@ -53,13 +53,21 @@ console.log(beerPrice); // outputs 10.🤷‍
 
 </details>
 
-### `var` vs `let`
+
+
+
+<details>
+<summary>`var` vs `let`</summary>
 `var`: The scope of a variable declared with the keyword var is its current execution context. This is either the enclosing function or for variables declared outside any function, global.
 
 `let`: 
 
-### Strict mode in Javascript
 
+</details>
+
+
+<details>
+<summary>Strict mode in Javascript</summary>
 > JavaScript can be made a little stricter by enabling strict mode. This is done by
 putting the string "use strict" at the top of a file or a function body. Here’s an example:
 
@@ -111,7 +119,11 @@ let ferdinand = Person("Ferdinand"); // forgot new
 > Strict mode does a few more things. It disallows giving a function multiple parameters with the same name and removes certain problematic language features entirely (such as the with statement). In short, putting `"use strict"` at the top of your program rarely hurts and
 might help you spot a problem.
 
-### Function declaration types in Javascript
+</details>
+
+
+<details>
+<summary>Function declaration types in Javascript</summary>
 an `anonymous function` or `Function expression` is an unnamed function that is assigned to a variable.
 
 ````javascript
@@ -149,17 +161,28 @@ var a = () => {
 
 a() // prints 'hello! world'
 ````
+</details>
 
-### Async await
-Async Await is syntactical sugar to the existing Javascript Promises.
 
-* Async function returns a promise regardless of return value. 
-* You don’t need to wrap the return value in Promise. its by default.
+<details>
+<summary>Async await</summary>
+  Async Await is syntactical sugar to the existing Javascript Promises.
 
-### Events and Delegation
+  * Async function returns a promise regardless of return value. 
+  * You don’t need to wrap the return value in Promise. its by default.
+
+</details>
+
+
+<details>
+<summary>Events and Delegation</summary>
 //todo
 
-### Javascript quiz
+</details>
+
+<details>
+<summary>Javascript quiz</summary>
+
 1. What will be the console output of the following code and why is it ?
     ````javascript
     console.log(myName); //output ?
@@ -174,6 +197,8 @@ Async Await is syntactical sugar to the existing Javascript Promises.
     console.log(beerPrice); //output ?
     console.log(whiskeyPrice); //output ?
     ````
+</details>
+
 
 ### References and resources
 The following references are used in the code snippets, examples, definitions.
