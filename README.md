@@ -10,7 +10,10 @@
 6. [Take the quiz](#javascript-quiz)
 7. [References and resources](#references-and-resources)
 
-### Hoisting
+
+
+<details>
+<summary>###Hoisting</summary>
 
 > Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.  
 
@@ -47,6 +50,8 @@ setBeerPriceAgain();
 
 console.log(beerPrice); // outputs 10.🤷‍
 ````
+
+</details>
 
 ### `var` vs `let`
 `var`: The scope of a variable declared with the keyword var is its current execution context. This is either the enclosing function or for variables declared outside any function, global.
