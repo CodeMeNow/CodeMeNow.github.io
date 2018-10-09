@@ -14,3 +14,5 @@ const TestComponent = () => {
 ReactDOM.render(<TestComponent />, document.getElementById('root'));
 ````
 ## References
+
+1. [Pure React sample chapters](https://s3.amazonaws.com/daveceddia.com/Pure+React+-+sample+chapters.pdf)
