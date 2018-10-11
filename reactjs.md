@@ -10,7 +10,7 @@
    
    import ReactDOM from 'react-dom';
    
-   const TestComponent = () = { return (Hello world); };
+   const TestComponent = () => { return (Hello world); };
    
    ReactDOM.render(<TestComponent/>, document.getElementById('root'));
    
