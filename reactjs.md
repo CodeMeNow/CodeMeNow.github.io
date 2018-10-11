@@ -4,17 +4,17 @@
 
 1. Boilerplate for Bootstrapping a React component. `ReactDOM.render` will be used only once in the App at the top level.
 
-   \`\`\`\` javascript
+   ````javascript
 
    import React from 'react';
-
+   
    import ReactDOM from 'react-dom';
-
-const TestComponent = \(\) =&gt; { return \(Hello world\); };
-
-ReactDOM.render\(, document.getElementById\('root'\)\);
-
-\`\`\`\`
+   
+   const TestComponent = () = { return (Hello world); };
+   
+   ReactDOM.render(<TestComponent/>, document.getElementById('root'));
+   
+   ````
 
 ## References
 
