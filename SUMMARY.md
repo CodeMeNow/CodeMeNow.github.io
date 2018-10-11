@@ -1,5 +1,5 @@
 # Table of contents
 
-* [README](README.md)
+* [Javascript](README.md)
 * [ReactJS](reactjs.md)
 
