@@ -1,4 +1,4 @@
-## 1. Whats the output #closure
+### 1. Whats the output #closure
 ```` javascript
 function foo() {
   var callCounter = 0;
@@ -14,7 +14,7 @@ foo();
 foo();
 ````
 
-## 2. Whats the output #closure
+### 2. Whats the output #closure
 ```` javascript
 function foo() {
   var callCounter = 0;
@@ -30,7 +30,7 @@ bar();
 bar();
 ````
 
-## 3. Whats the output #closure
+### 3. Whats the output #closure
 ```` javascript
 var a = 10;
 
@@ -41,12 +41,12 @@ function test() {
 var b = 6;
 test();
 ````
-## 4. Whats the output #hoisting
+### 4. Whats the output #hoisting
  ```javascript
   console.log(myName); //output ?
   myName = 'John Doe';
  ```
-## 5. Whats the output #hoisting
+### 5. Whats the output #hoisting
  ```javascript
   function test() {
       beerPrice = 4;
