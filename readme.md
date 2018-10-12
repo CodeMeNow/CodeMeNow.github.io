@@ -1,4 +1,4 @@
-## Index
+## Javascript
 1. [Hoisting in Javascript](/Javascript/hoisting.md)
 2. [`var` vs `let`](/Javascript/es6-var-vs-let.md)
 3. [Strict mode in Javascript](/Javascript/strict-mode.md)
@@ -7,3 +7,6 @@
 6. [Events and Delegation](/Javascript/events-and-delegations.md)
 7. [Take the quiz](/Javascript/whats-the-output.md)
 8. [References and resources](/Javascript/README.md)
+
+## ReactJS
+1. [Introduction](/ReactJS/readme.md)
