@@ -29,6 +29,21 @@ bar();
 bar();
 bar();
 ````
+## 3. Whats the output #hoisting
+ ```javascript
+  console.log(myName); //output ?
+  myName = 'John Doe';
+ ```
+## 4. Whats the output #hoisting
+ ```javascript
+  function test() {
+      beerPrice = 4;
+      var whiskeyPrice = 100;
+  }
+  test();
+  console.log(beerPrice); //output ?
+  console.log(whiskeyPrice); //output ?
+ ```
 
 
 
