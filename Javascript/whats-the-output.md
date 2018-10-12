@@ -29,12 +29,24 @@ bar();
 bar();
 bar();
 ````
-## 3. Whats the output #hoisting
+
+## 3. Whats the output #closure
+```` javascript
+var a = 10;
+
+function test() {
+  console.log(a); // will output 10
+  console.log(b); // will output 6
+}
+var b = 6;
+test();
+````
+## 4. Whats the output #hoisting
  ```javascript
   console.log(myName); //output ?
   myName = 'John Doe';
  ```
-## 4. Whats the output #hoisting
+## 5. Whats the output #hoisting
  ```javascript
   function test() {
       beerPrice = 4;
