@@ -35,8 +35,8 @@ bar();
 var a = 10;
 
 function test() {
-  console.log(a); // will output 10
-  console.log(b); // will output 6
+  console.log(a);
+  console.log(b);
 }
 var b = 6;
 test();
