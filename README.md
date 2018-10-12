@@ -134,24 +134,7 @@ Async Await is syntactical sugar to the existing Javascript Promises.
 
 //todo
 
-### Javascript quiz
 
-1. What will be the console output of the following code and why is it ?
-
-   ```javascript
-    console.log(myName); //output ?
-    myName = 'John Doe';
-   ```
-
-   ```javascript
-    function test() {
-        beerPrice = 4;
-        var whiskeyPrice = 100;
-    }
-    test();
-    console.log(beerPrice); //output ?
-    console.log(whiskeyPrice); //output ?
-   ```
 
 ### References and resources
 
