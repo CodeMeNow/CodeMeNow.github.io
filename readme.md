@@ -5,5 +5,5 @@
 4. [Function declaration types in Javascript](/Javascript/#function-declaration-types-in-javascript)
 5. [Async await](/Javascript/#async-await)
 6. [Events and Delegation](/Javascript/#events-and-delegation)
-7. [Take the quiz](/Javascript/#javascript-quiz)
+7. [Take the quiz](/Javascript/whats-the-output.md)
 8. [References and resources](/Javascript/#references-and-resources)
