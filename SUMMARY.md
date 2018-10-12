@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Javascript](README.md)
-* [ReactJS](reactjs.md)
-* [What is the output](whats-the-output.md)
+* [Javascript](Javascript/README.md)
+* [ReactJS](ReactJS/reactjs.md)
+* [What is the output](Javascript/whats-the-output.md)
