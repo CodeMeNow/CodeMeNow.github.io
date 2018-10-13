@@ -21,11 +21,7 @@ Write a program `printChessBoard` that creates a string that represents an n×n 
 ````
 
 ## Solutions
-<details>
-<summary>
-  1. View FizzBuzz solution
-</summary>
-
+ 1. FizzBuzz solution
 
 _simple solution_
 ```` javascript
@@ -60,18 +56,8 @@ const fizzbuzz = ()=> {
 }
 fizzbuzz();
 ````
-</details>
 
-
-
-
-
-
-
-<details>
-<summary>
-  2. View Chessboard solution
-</summary>
+ 2. View Chessboard solution
 
 ```` javascript
 const chessBoard = (boardSize) => {
@@ -92,4 +78,3 @@ const chessBoard = (boardSize) => {
 chessBoard(16);
 ````
 
-</details>
