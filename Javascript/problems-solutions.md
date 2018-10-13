@@ -19,6 +19,8 @@ Write a program `printChessBoard` that creates a string that represents an n×n 
  # # # #
 # # # #
 ````
+### 3. Even number check
+find out if a given input is an even number without using `%` operator
 
 ## Solutions
 ### 1. FizzBuzz solution
@@ -77,3 +79,24 @@ const chessBoard = (boardSize) => {
 chessBoard(16);
 ````
 
+### 3. Even number check
+
+```` javascript
+const isEven = (N) => {
+  N = Math.abs(N);
+  if(N === 0) {
+    return true;
+  }
+  if(N === 1) {
+    return false;
+  }
+  return isEven(N-2);
+}
+
+console.log(isEven(0));
+console.log(isEven(1));
+console.log(isEven(2));
+console.log(isEven(9));
+console.log(isEven(-1));
+console.log(isEven(-2));
+````
