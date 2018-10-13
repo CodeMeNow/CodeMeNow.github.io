@@ -3,7 +3,7 @@
 Write a program that uses console.log to print all the numbers from 1 to 100 with following exceptions.
 * For numbers divisible by 3, print "Fizz" instead of the number
 * for numbers divisible by 5 (and not 3) print "Buzz" instead of the number.
-* for numbers divisible by bothe 3 and 5 print "FizzBuzz" instead of the number.
+* for numbers divisible by both 3 and 5 print "FizzBuzz" instead of the number.
 ### 2. Print a chessboard
 Write a program `printChessBoard` that creates a string that represents an n×n grid, using newline characters to separate lines. At each position of the grid there is either a space or a "#" character.
 
