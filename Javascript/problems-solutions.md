@@ -70,7 +70,7 @@ fizzbuzz();
 
 <details>
 <summary>
-  1. View Chessboard solution
+  2. View Chessboard solution
 </summary>
 
 ```` javascript
